@@ -1,20 +1,15 @@
 # A Developer Resume.
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 <div align="center">
-  <img alt="Logo" src="./src/images/logo.png" width="100" />
+  <img alt="Logo" src="./src/images/logo.jpeg" width="100" />
 </div>
 <h1 align="center">
-  A Developer Resume
+  A Developer Portfolio
 </h1>
 
-Yes, you can fork this repo. Please give proper credit by linking back to [github.com/Ahmadjajja](https://github.com/Ahmadjajja) through Star and Fork. Thanks!
+Yes, you can fork this repo. Please give proper credit by linking back to [github.com/AbdulMunnam07](https://github.com/AbdulMunnam07) through Star and Fork. Thanks!
 
-![demo](./src/images/landingpage.jpg)
+![demo](./src/images/landingpage.png)
 
 ## 🛠 Installation & Set Up
 
@@ -48,14 +43,14 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[contributors-shield]: https://img.shields.io/github/contributors/Ahmadjajja/Developer-Resume.svg?style=for-the-badge
-[contributors-url]: https://github.com/Ahmadjajja/Developer-Resume/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Ahmadjajja/Developer-Resume.svg?style=for-the-badge
-[forks-url]: https://github.com/Ahmadjajja/Developer-Resume/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ahmadjajja/Developer-Resume.svg?style=for-the-badge
-[stars-url]: https://github.com/Ahmadjajja/Developer-Resume/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Ahmadjajja/Developer-Resume.svg?style=for-the-badge
-[issues-url]: https://github.com/Ahmadjajja/Developer-Resume/issues
-[license-shield]: https://img.shields.io/github/license/Ahmadjajja/Developer-Resume.svg?style=for-the-badge
-[license-url]: https://github.com/Ahmadjajja/Developer-Resume/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/AbdulMunnam07/Developer-Resume.svg?style=for-the-badge
+[contributors-url]: https://github.com/AbdulMunnam07/Developer-Resume/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AbdulMunnam07/Developer-Resume.svg?style=for-the-badge
+[forks-url]: https://github.com/AbdulMunnam07/Developer-Resume/network/members
+[stars-shield]: https://img.shields.io/github/stars/AbdulMunnam07/Developer-Resume.svg?style=for-the-badge
+[stars-url]: https://github.com/AbdulMunnam07/Developer-Resume/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AbdulMunnam07/Developer-Resume.svg?style=for-the-badge
+[issues-url]: https://github.com/AbdulMunnam07/Developer-Resume/issues
+[license-shield]: https://img.shields.io/github/license/AbdulMunnam07/Developer-Resume.svg?style=for-the-badge
+[license-url]: https://github.com/AbdulMunnam07/Developer-Resume/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
