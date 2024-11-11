@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../Css_applied/thingsBuiltStyles.css";
-import AIPodcastGenerator from "../images/AIPodcasteGenerator.png";
+import pdfimage from "../images/pdfimage.jpeg";
 import AIPodcastGeneratorShaded from "../images/AIPodcasteGeneratorShaded2.jpg";
 // import BankApp from "../images/BankApp.png";
 // import BankAppShaded from "../images/BankAppShaded2.jpd.jpg";
@@ -553,7 +553,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
         >
           <img
             className="opacity-[0.15] w-[100%] h-[100%] row-start-1 col-start-1 items-start justify-start object-top object-contain"
-            src={AIPodcastGenerator}
+            src={pdfimage}
             alt="image"
           />
           <div className="grid grid-template-rows-4 grid-template-columns-2 gap-[10px] place-items-start text-[13px] text-[#64ffda] font-customMono bg-transparent antialiased row-start-1 col-start-1 pt-[40px] px-[40px] pb-[30px] tbScreen1:mt-[3%] tbScreen2:mt-[1%] tbScreen2:pt-[25px] tbScreen2:gap-[3px] tbScreen5:mt-[-2%] tbScreen5:px-[20px]">
@@ -1144,8 +1144,8 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
                   className="object-top object-contain"
                   src={
                     podcastThingMouseOver
-                      ? AIPodcastGenerator
-                      : AIPodcastGeneratorShaded
+                      ? pdfimage
+                      : pdfimage
                   }
                   alt="image"
                 />
