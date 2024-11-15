@@ -327,7 +327,7 @@ const Work = ({ experienceBtnClickedActive }) => {
                     <span className="antialiased text-[#64ffda]">@</span>
                     <span className="antialiased text-[#64ffda] relative">
                       <a
-                        href="https://seeraht.com/"
+                        href="https://www.codeway.pk/"
                         className="viewArchive"
                         target="_blank"
                       >
