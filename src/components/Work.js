@@ -464,7 +464,7 @@ const Work = ({ experienceBtnClickedActive }) => {
                         : "h-[2.532rem] text-[#8892b0] text-[13px] flex items-center font-customMono antialiased cursor-pointer whitespace-nowrap px-[15px] w-[100%]"
                     }
                   >
-                    SEERAHT
+                    Codeway
                   </div>
                   {/* Freelancing */}
                   <div
@@ -509,7 +509,7 @@ const Work = ({ experienceBtnClickedActive }) => {
                         : "h-[2.532rem] text-[#8892b0] text-[13px] flex items-center font-customMono antialiased cursor-pointer whitespace-nowrap px-[15px] w-[100%]"
                     }
                   >
-                    SEERAHT
+                    Codeway
                   </div>
                   {/* Freelancing */}
                   <div
@@ -608,34 +608,34 @@ const Work = ({ experienceBtnClickedActive }) => {
               <div className="blink_me">
                 {/* For firstWork */}
                 <div className="text-[#ccd6f6] font-calibri leading-[1.2] text-[20px] antialiased">
-                  MERN Stack Developer{" "}
+                  IOS Applications Developer{" "}
                   <span className="antialiased text-[#64ffda]">@</span>
                   <a
                     href="https://seeraht.com/"
                     className="antialiased text-[#64ffda] underline"
                   >
-                    SEEHRAT
+                    Codeway
                   </a>
                 </div>
                 <div className="pt-[7px] text-[#a8b2d1] inline-block font-customMono text-[13px] antialiased">
-                  May 2022 - Aug 2022{" "}
+                  Sep 2024 - Aug present{" "}
                 </div>
 
                 <div className="mt-[2.3rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
                   <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
                   <div className="leading-[1.22rem]">
-                    Developed and maintained web applications using the MERN
-                    stack, focusing on delivering high-quality, scalable, and
-                    efficient code for clients at Seeraht software company.
+                  Developed and maintained IOS applications using the swift
+                      , focusing on delivering high-quality, scalable, and
+                      efficient code for AppStore at Codeway software company.
                   </div>
                 </div>
                 <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
                   <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
                   <div className="leading-[1.22rem]">
-                    Collaborated with cross-functional teams to understand
-                    business requirements and implemented technical solutions,
-                    utilizing modern development techniques to design and
-                    implement complex software features.
+                  Collaborated with cross-functional teams to understand
+                      business requirements and implemented technical solutions,
+                      utilizing modern development techniques to design and
+                      implement complex software features.                                          
                   </div>
                 </div>
                 <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">

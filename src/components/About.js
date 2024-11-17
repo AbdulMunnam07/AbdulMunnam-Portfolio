@@ -807,7 +807,7 @@ const About = ({ aboutBtnClickedActive }) => {
           <div className="h-auto py-12">
             <div className="relative">
               <img
-                ref={myImage}
+                ref={DP}
                 onMouseOver={() => setClicked(true)}
                 onMouseOut={() => setClicked(false)}
                 src={DP}
