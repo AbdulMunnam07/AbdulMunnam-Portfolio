@@ -136,7 +136,7 @@ function App() {
                 setWorkBtnClickedActive={setWorkBtnClickedActive}
                 setContactBtnClickedActive={setContactBtnClickedActive}
               />
-              <MemoryOne />
+              {/* <MemoryOne /> */}
               <Logos />
             </Fragment>
           }
@@ -152,7 +152,7 @@ function App() {
                 setWorkBtnClickedActive={setWorkBtnClickedActive}
                 setContactBtnClickedActive={setContactBtnClickedActive}
               />
-              <MemoryTwo />
+              {/* <MemoryTwo /> */}
               <Logos />
             </Fragment>
           }
