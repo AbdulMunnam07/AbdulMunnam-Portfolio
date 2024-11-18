@@ -618,7 +618,7 @@ const Work = ({ experienceBtnClickedActive }) => {
                   </a>
                 </div>
                 <div className="pt-[7px] text-[#a8b2d1] inline-block font-customMono text-[13px] antialiased">
-                  Sep 2024 - Aug present{" "}
+                  Sep 2024 - present{" "}
                 </div>
 
                 <div className="mt-[2.3rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">

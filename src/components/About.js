@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../Css_applied/aboutStyles.css";
 import DP from "../images/DP.jpeg";
-import DPs from "../images/DPs.jpg";
+import DPs from "../images/DPs.jpeg";
 
 const About = ({ aboutBtnClickedActive }) => {
   const mySecondImage = useRef();

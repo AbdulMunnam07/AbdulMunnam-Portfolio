@@ -1,17 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../Css_applied/thingsBuiltStyles.css";
 import pdfimage from "../images/pdfimage.jpeg";
-import AIPodcastGeneratorShaded from "../images/AIPodcasteGeneratorShaded2.jpg";
 // import BankApp from "../images/BankApp.png";
 // import BankAppShaded from "../images/BankAppShaded2.jpd.jpg";
-import CRUDMERN from "../images/CRUDMERN.png";
-import CRUDMERNShaded2 from "../images/CRUDMERNShaded2.jpg";
+// import CRUDMERN from "../images/CRUDMERN.png";
+// import CRUDMERNShaded2 from "../images/CRUDMERNShaded2.jpg";
 import codeway from "../images/codeway.jpeg";
 // import codewayShaded from "../images/codewayShaded.jpeg";
 import PYTHONDSA from "../images/PYTHONDSA.jpeg";
 // import PYTHONDSAShaded from "../images/PYTHONDSAShaded.jpeg";
-import MERNBootcamp from "../images/MERN-Bootcamp.jpg";
-import MERNBootcampShaded from "../images/MERN-BootcampShaded2.jpg";
+// import MERNBootcamp from "../images/MERN-Bootcamp.jpg";
+// import MERNBootcampShaded from "../images/MERN-BootcampShaded2.jpg";
 import NotesApp from "../images/NotesApp.jpeg";
 // import PlantDiseaseDetectionShaded from "../images/PlantDiseaseDetectionShaded.jpg";
 // import ReatEstateMblApp from "../images/RealEstateMobileApp.png";
@@ -21,23 +20,23 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
   const [plantThingMouseOver, setPlantThingMOuseOver] = useState(false);
   const [podcastThingMouseOver, setPodcastThingMOuseOver] = useState(false);
   const [firstThingsMouseOver, setFirstThingMOuseOver] = useState(false);
-  const [secondThingsMouseOver, setSecondThingMOuseOver] = useState(false);
-  const [thirdThingsMouseOver, setThirdThingMOuseOver] = useState(false);
-  const [fourthThingsMouseOver, setFourthThingMOuseOver] = useState(false);
-  const [MERNBootcampMouseOver, setMERNBootcampMOuseOver] = useState(false);
+  // const [secondThingsMouseOver, setSecondThingMOuseOver] = useState(false);
+  // const [thirdThingsMouseOver, setThirdThingMOuseOver] = useState(false);
+  // const [fourthThingsMouseOver, setFourthThingMOuseOver] = useState(false);
+  // const [MERNBootcampMouseOver, setMERNBootcampMOuseOver] = useState(false);
   // Hover On Icons
   const [ecoFactorThingGithubHover, setEcoFactorThingGithubHover] = useState(false);
   const [ecoFactorThingLinkHover, setEcoFactorThingLinkHover] = useState(false);
-  const [podcastThingGithubHover, setPodcastThingGithubHover] = useState(false);
-  const [podcastThingLinkHover, setPodcastThingLinkHover] = useState(false);
+  // const [podcastThingGithubHover, setPodcastThingGithubHover] = useState(false);
+  // const [podcastThingLinkHover, setPodcastThingLinkHover] = useState(false);
   const [firstThingGithubHover, setFirstThingGithubHover] = useState(false);
   const [plantThingGithubHover, setPlantThingGithubHover] = useState(false);
 
   // const [secondThingGithubHover, setSecondThingGithubHover] = useState(false);
   // const [secondThingLinkHover, setSecondThingLinkHover] = useState(false);
   // const [thirdThingGithubHover, setThirdThingGithubHover] = useState(false);
-  const [fourthThingGithubHover, setFourthThingGithubHover] = useState(false);
-  const [MERNBootcampGithubHover, setMERNBootcampGithubHover] = useState(false);
+  // const [fourthThingGithubHover, setFourthThingGithubHover] = useState(false);
+  // const [MERNBootcampGithubHover, setMERNBootcampGithubHover] = useState(false);
 
   // Title Appear when Displayed
   const [isVisibleOne, setIsVisibleOne] = useState(false);
@@ -294,7 +293,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
   // });
 
   // For small Screen
-  const yourDiv = document.getElementById("firstDiv");
+  // const yourDiv = document.getElementById("firstDiv");
   function isElementInViewportWithOffset(el, offset = 0) {
     let rect = el.getBoundingClientRect();
     let windowHeight =
@@ -579,7 +578,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
                 <a
                   target="_blank"
                   className="tbScreen1:mt-[30px] tbScreen3:mt-[15px] tbScreen4:mt-[20px] tbScreen5:mt-[10px] inline-block text-[#ccd6f6] w-[20px] h-[20px] cursor-pointer antialiased"
-                  href="https://github.com/Ahmadjajja/AIpodcastgenerator"
+                  // href="https://github.com/Ahmadjajja/AIpodcastgenerator"
                   aria-label="GitHub Link"
                 >
                   <svg
