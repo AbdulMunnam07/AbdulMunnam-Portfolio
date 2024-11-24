@@ -54,35 +54,14 @@ const Header = () => {
             className={`contentContainer ${showThirdContent ? "show" : ""
               } smallHeading block  text-[#8892b0]  font-semibold  leading-[1]  font-calibri antialiased headerScreen1:w-[90%] marginTop: mt-3`}
           >
-            Software Engineer and Trainer
+            Software Engineer and Tech Trainer
           </div>
           <div
             className={`contentContainer ${showFourthContent ? "show" : ""
               } description block text-[#8892b0]  mt-[1.16rem] py-2  text-lg antialiased headerScreen1:w-[70%]`}
             style={{ fontFamily: "'Calibre','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif" }}
           >
-            {/* A Techy with keen interest in Web Development, DEVOPS, WEB 3.0 and machine learning. Love to learn new technologies, currently learning and enhancing my knowledge in docker, kubernates and CI/CD.
-            An aspiring{" "}
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://drive.google.com/file/d/1HAMbxoTU0kpSDj8k-YFjYE14ngWeisZ1/view"
-                target="_blank"
-              >
-                Certified&nbsp;
-              </a>{" "}
-            </div>
-            Full-Stack-Engineer with a focus on Large Scale Systems. */}
             As a Software Engineer, I bring a diverse background with expertise in building Generative AI applications in swift IOS, web applications (MERN), and mobile applications (React Native). Additionally, as a Tech Trainer, I have trained 100+ students in various programming languages and technologies at {" "}
-            {/* <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/company/saylanimassittraining/mycompany/"
-                target="_blank"
-              >
-                SMIT,&nbsp;
-              </a>{" "}
-            </div> */}
             <div className="relative inline-block">
               <a
                 className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
@@ -92,15 +71,6 @@ const Header = () => {
                 iCodeGuru&nbsp;
               </a>{" "}
             </div>
-            {/* and Stanford University (as a             <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/posts/ahmad-jajja_stanfordabrcodeabrinabrplaceabrlearnings-activity-7195142429073633281-zNhV/?utm_source=share&utm_medium=member_desktop"
-                target="_blank"
-              >
-                Section Leader Mentor
-              </a>
-            </div>). */}
           </div>
           <div
             className={`contentContainer ${showFifthContent ? "show" : ""

@@ -5,16 +5,13 @@ const Logos = () => {
   // Hover
   const [githubSvgHover, setGithubSvgHover] = useState(false);
   const [leetcodeSvgHover, setLeetcodeSvgHover] = useState(false);
-  const [twitterSvgHover, setTwitterSvgHover] = useState(false);
   const [linkedInSvgHover, setLinkedInSvgHover] = useState(false);
   // const [facebookSvgHover, setFacebookSvgHover] = useState(false);
   const [mailHover, setMailHover] = useState(false);
   // Clicked
   const [githubSvgClicked, setGithubSvgClicked] = useState(false);
   const [leetcodeSvgClicked, setLeetcodeSvgClicked] = useState(false);
-  const [twitterSvgClicked, setTwitterSvgClicked] = useState(false);
   const [linkedInSvgClicked, setLinkedInSvgClicked] = useState(false);
-  // const [facebookSvgClicked, setFacebookSvgClicked] = useState(false);
   const [mailClicked, setMailClicked] = useState(false);
 
   // Showing Content in transition
@@ -78,28 +75,6 @@ const Logos = () => {
                 </svg>
               </a>
             </div>
-            {/* Twitter SVG */}
-            <div className="w-[20px] h-[20px]">
-              <a
-                href="https://twitter.com/AhmadJajja786"
-                aria-label="Twitter"
-                target="_blank"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#a8b2d1"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="feather feather-twitter"
-                >
-                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                </svg>
-              </a>
-            </div>
             {/* LinkedIn SVG */}
             <div className="w-[20px] h-[20px]">
               <a
@@ -124,27 +99,6 @@ const Logos = () => {
                 </svg>
               </a>
             </div>
-            {/* Facebook SVG
-            <div className="w-[20px] h-[20px] mt-[1px]">
-              <a
-                href="https://www.facebook.com/ahmad.jajja.9081/"
-                className="text-[#ccd6f6] text-[1.1rem]"
-                target="_blank"
-              >
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  strokeWidth="0"
-                  viewBox="0 0 320 512"
-                  className="iconHover"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
-                </svg>
-              </a>
-            </div> */}
           </div>
         </div>
       </div>
@@ -160,9 +114,7 @@ const Logos = () => {
             onClick={() => {
               setGithubSvgClicked(true);
               setLeetcodeSvgClicked(false);
-              setTwitterSvgClicked(false);
               setLinkedInSvgClicked(false);
-              // setFacebookSvgClicked(false)
             }}
             onMouseOver={() => setGithubSvgHover(true)}
             onMouseOut={() => setGithubSvgHover(false)}
@@ -199,9 +151,7 @@ const Logos = () => {
             onClick={() => {
               setGithubSvgClicked(false);
               setLeetcodeSvgClicked(true);
-              setTwitterSvgClicked(false);
               setLinkedInSvgClicked(false);
-              // setFacebookSvgClicked(false)
             }}
             onMouseOver={() => setLeetcodeSvgHover(true)}
             onMouseOut={() => setLeetcodeSvgHover(false)}
@@ -229,53 +179,12 @@ const Logos = () => {
               </svg>
             </a>
           </div>
-          {/* Twitter SVG */}
-          <div
-            onClick={() => {
-              setGithubSvgClicked(false);
-              setLeetcodeSvgClicked(false);
-              setTwitterSvgClicked(true);
-              setLinkedInSvgClicked(false);
-              // setFacebookSvgClicked(false)
-            }}
-            onMouseOver={() => setTwitterSvgHover(true)}
-            onMouseOut={() => setTwitterSvgHover(false)}
-            className="w-[20px] h-[20px] mb-[15px]"
-          >
-            <a
-              href="https://twitter.com/AhmadJajja786"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke={
-                  twitterSvgClicked
-                    ? "#64ffda"
-                    : twitterSvgHover
-                    ? "#64ffda"
-                    : "#a8b2d1"
-                }
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="feather feather-twitter ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration transition-whereIWorkedTransitionProperty"
-              >
-                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-              </svg>
-            </a>
-          </div>
           {/* LinkedIn SVG */}
           <div
             onClick={() => {
               setGithubSvgClicked(false);
               setLeetcodeSvgClicked(false);
-              setTwitterSvgClicked(false);
               setLinkedInSvgClicked(true);
-              // setFacebookSvgClicked(false)
             }}
             onMouseOver={() => setLinkedInSvgHover(true)}
             onMouseOut={() => setLinkedInSvgHover(false)}
@@ -309,44 +218,6 @@ const Logos = () => {
               </svg>
             </a>
           </div>
-          {/* Facebook SVG
-          <div
-            onClick={() => {
-              setGithubSvgClicked(false)
-              setLeetcodeSvgClicked(false)
-              setTwitterSvgClicked(false)
-              setLinkedInSvgClicked(false)
-              setFacebookSvgClicked(true)
-            }}
-            onMouseOver={() => setFacebookSvgHover(true)}
-            onMouseOut={() => setFacebookSvgHover(false)}
-            className="w-[20px] h-[20px] mt-[1px] mb-[15px]"
-          >
-            <a
-              href="https://www.facebook.com/ahmad.jajja.9081/"
-              className="text-[#ccd6f6] text-[1.1rem]"
-              target="_blank"
-            >
-              <svg
-                stroke="currentColor"
-                fill={
-                  facebookSvgClicked
-                    ? "#64ffda"
-                    : facebookSvgHover
-                      ? "#64ffda"
-                      : "#a8b2d1"
-                }
-                strokeWidth="0"
-                viewBox="0 0 320 512"
-                className="iconHover ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration transition-whereIWorkedTransitionProperty"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
-              </svg>
-            </a>
-          </div> */}
           {/* Straight Line */}
           <div className="h-[7.187rem] border-[1px] border-[#a8b2d1]"></div>
         </div>

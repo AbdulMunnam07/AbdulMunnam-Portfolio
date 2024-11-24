@@ -179,17 +179,6 @@ const Work = ({ experienceBtnClickedActive }) => {
             {/* Left Side */}
             <div className="w-[20%] myScreen1:w-[8rem] workScreen10:w-[25.5%]">
               <div className="h-[7.6rem] relative border-l-[1px] border-l-[#8892b0] rounded transition-whereIWorkedTransitionProperty ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration delay-whereIWorkedTransitionDelay">
-                <div
-                  // className={
-                  //   firstBarClicked
-                  //     ? "h-[2.625rem] w-[1.6px] absolute top-[4.9rem] border border-[#64ffda] rounded transition-whereIWorkedTransitionProperty ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration delay-whereIWorkedTransitionDelay"
-                  //     : firstBarClicked2
-                  //       ? "h-[2.625rem] w-[1.6px] absolute top-[15rem] border border-[#64ffda] rounded transition-whereIWorkedTransitionProperty ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration delay-whereIWorkedTransitionDelay"
-                  //       : firstBarClicked3
-                  //         ? "h-[2.625rem] w-[1.6px] absolute top-[17.45rem] border border-[#64ffda] rounded transition-whereIWorkedTransitionProperty ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration delay-whereIWorkedTransitionDelay"
-                  //         : "h-[2.625rem] w-[1.6px] absolute border border-[#64ffda] rounded transition-whereIWorkedTransitionProperty ease-whereIWorkedTransitionTiming duration-whereIWorkedTransitionDuration delay-whereIWorkedTransitionDelay"
-                  // }
-                ></div>
                 {/* iCodeGuru */}
                 <div
                   onMouseOver={() => setFirstWorkHover(true)}
@@ -272,12 +261,6 @@ const Work = ({ experienceBtnClickedActive }) => {
                         Teaching 𝐃𝐒𝐀 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞.
                       </div>
                     </div>
-                    {/* <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
-                      <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
-                      <div className="leading-[1.22rem]">
-                        Conducting 𝐰𝐞𝐞𝐤𝐥𝐲 𝐰𝐨𝐫𝐤𝐬𝐡𝐨𝐩𝐬 on key DSA topics to help underprivileged students learn freely.
-                      </div>
-                    </div> */}
                     <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
                       <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
                       <div className="leading-[1.22rem]">
@@ -299,26 +282,11 @@ const Work = ({ experienceBtnClickedActive }) => {
                         </div>
                       </div>
                     </div>
-                    {/* 2 */}
-                    {/* <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex"> */}
-                      {/* <div className="text-[#64ffda] pr-[1rem]" style={{ position: "relative", bottom: "3px" }}>➾</div>{" "} */}
-                      {/* <div className="leading-[1.22rem]">
-                        <div className="relative inline-block">
-                          <a
-                            className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                            href="https://www.facebook.com/watch/100063644695494/1341880143172469"
-                            target="_blank"
-                          >
-                            &nbsp;(𝐃𝐮𝐨𝐥𝐢𝐧𝐠𝐨 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 𝐏𝐫𝐨𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲) 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭&nbsp;
-                          </a>{" "}
-                        </div>
-                      </div> */}
-                    {/* </div> */}
                   </div>
                 </div>
               )}
 
-              {/* Seeraht */}
+              {/* Codeway */}
               {firstWorkClicked2 && (
                 <div className="blink_me">
                   {/* For firstWork */}
@@ -546,7 +514,7 @@ const Work = ({ experienceBtnClickedActive }) => {
                     </a>
                   </div>
                   <div className="text-[#a8b2d1] font-customMono text-[13px] antialiased">
-                    Feb 2023 - present{" "}
+                    May 2024 - Sep 2024{" "}
                   </div>
 
                   <div className="pt-[2.3rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
@@ -564,38 +532,12 @@ const Work = ({ experienceBtnClickedActive }) => {
                   <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
                     <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
                     <div className="leading-[1.22rem]">
-                      Conducting 𝐰𝐞𝐞𝐤𝐥𝐲 𝐰𝐨𝐫𝐤𝐬𝐡𝐨𝐩𝐬 on key DSA topics to help underprivileged students learn freely.
-                    </div>
-                  </div>
-                  <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
-                    <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
-                    <div className="leading-[1.22rem]">
-                      Voluntarily taught the 𝐃𝐮𝐨𝐥𝐢𝐧𝐠𝐨 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 𝐏𝐫𝐨𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲 𝐓𝐞𝐬𝐭 to students.
-                    </div>
-                  </div>
-
-                  <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
-                    <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
-                    <div className="leading-[1.22rem]">
                       <a
                         className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                        href="https://github.com/Ahmadjajja/LeetCode_Volunteer_Teaching"
+                        href="https://github.com/AbdulMunnam07/Volunteer_Teaching_Recordings"
                         target="_blank"
                       >
                         (𝐏𝐲𝐭𝐡𝐨𝐧, 𝐃𝐒𝐀, & 𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞) 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭  &nbsp;
-                      </a>
-                    </div>
-                  </div>
-                  {/* 2 */}
-                  <div className="pt-[1rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
-                    <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}
-                    <div className="leading-[1.22rem]">
-                      <a
-                        className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                        href="https://www.facebook.com/watch/100063644695494/1341880143172469"
-                        target="_blank"
-                      >
-                        (𝐃𝐮𝐨𝐥𝐢𝐧𝐠𝐨 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 𝐏𝐫𝐨𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲) 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 &nbsp;
                       </a>
                     </div>
                   </div>
@@ -603,7 +545,7 @@ const Work = ({ experienceBtnClickedActive }) => {
               </div>
             )}
 
-            {/* SEERAHT */}
+            {/* Codeway */}
             {firstWorkClicked2 && (
               <div className="blink_me">
                 {/* For firstWork */}
@@ -662,7 +604,7 @@ const Work = ({ experienceBtnClickedActive }) => {
                   </span>
                 </div>
                 <div className="text-[#a8b2d1] pt-[7px] font-customMono text-[13px] antialiased">
-                  Nov 2021 - present{" "}
+                  Nov 2023 - present{" "}
                 </div>
                 <div className="pt-[2.3rem] text-[#8892b0] font-calibri text-[18px] antialiased flex">
                   <div className="text-[#64ffda] pr-[1rem]">➾</div>{" "}

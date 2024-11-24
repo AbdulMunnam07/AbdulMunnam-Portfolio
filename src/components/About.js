@@ -130,86 +130,11 @@ const About = ({ aboutBtnClickedActive }) => {
           </div>
           <div className="text-[#8892b0] font-calibri text-[20px] leading-[1.3] antialiased mb-4">
             I have expertise in building IOS applications (swift), web applications (MERN), and mobile applications (React Native). I bring a diverse background, having worked collaboratively in teams professionally, participated in International Hackathon, worked independently as a freelancer.
-            {/* <br />
-            <br /> */}
-            {/* As a tech trainer at the
-            <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://pk.worldorgs.com/catalog/faisalabad/accountant/saylani-mass-training-faisalabad"
-                target="_blank"
-              >
-                Saylani Welfare Mass Training & Job Creation Program&nbsp;
-              </a>{" "}
-            </div>
-            I've taught 1000+ students by simplifying complex programming concepts (wanna see how I provide training to my students?
-            <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://pk.worldorgs.com/catalog/faisalabad/accountant/saylani-mass-training-faisalabad"
-                target="_blank"
-              >
-                &nbsp; click here
-              </a>{" "}
-            </div>
-            ). */}
-            {/* <br />
-            <br /> */}
-            {/* I helped over 100 international folks around the globe🌍 solve coding problems in <b>Python</b> as a <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7186385467846639620/"
-                target="_blank"
-              >
-                &nbsp;Section Leader&nbsp;
-              </a>{" "}
-            </div>
-            and <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7186385467846639620/"
-                target="_blank"
-              >
-                &nbsp;Section Leader Mentor&nbsp;
-              </a>{" "}
-            </div>
-            (𝘵𝘦𝘢𝘤𝘩𝘪𝘯𝘨 𝘰𝘯𝘦-𝘰𝘯-𝘰𝘯𝘦) at <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://codeinplace.stanford.edu/"
-                target="_blank"
-              >
-                &nbsp;Stanford's Code in Place&nbsp;
-              </a>{" "}
-            </div>.
             <br />
-            <br />
-            I have
-            <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/posts/ahmad-jajja_stanfordabrcodeabrinabrplaceabrlearnings-activity-7195142429073633281-zNhV/?utm_source=share&utm_medium=member_desktop"
-                target="_blank"
-              >
-                &nbsp;participated&nbsp;
-              </a>{" "}
-            </div>
-            in multiple AI International Hackathons and
-            <div className="relative inline-block">
-              <a
-                className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7176624410651504641/"
-                target="_blank"
-              >
-                &nbsp;won&nbsp;
-              </a>{" "}
-            </div>
-            one of them (Unhallucinate Challenge).
-            <br />
-            <br /> */}
+            <br /> 
             I undergraduated from the
             <a
-              className="text-[#64ffda] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
+              className="text-[#26302d] transition-GetInTouchButtonTransitionProperty  duration-GetInTouchButtonTransitionDuration  ease-GetInTouchButtonTransitionTiming cursor-pointer font-calibri text-[20px] aboutScreen4:block"
               href="https://www.vu.edu.pk/"
               target="_blank"
             >
@@ -304,12 +229,6 @@ const About = ({ aboutBtnClickedActive }) => {
                 </span>{" "}
                 Material-UI
               </div>
-              {/* <div className="w-[30vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem]">
-                <span className="text-[#64ffda] text-[14px] leading-[12px]">
-                  ➾
-                </span>{" "}
-                OOP
-              </div> */}
             </div>
             <div>
               <div className="w-[30vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem]">
@@ -346,12 +265,6 @@ const About = ({ aboutBtnClickedActive }) => {
                 </span>{" "}
                 FireStore
               </div>
-              {/* <div className="w-[30vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem]">
-                <span className="text-[#64ffda] text-[14px] leading-[12px]">
-                  ➾
-                </span>{" "}
-                Node-JS
-              </div> */}
             </div>
             <div>
               <div className="w-[30vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem]">
@@ -360,12 +273,6 @@ const About = ({ aboutBtnClickedActive }) => {
                 </span>{" "}
                 Express-JS
               </div>
-              {/* <div className="w-[30vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem]">
-                <span className="text-[#64ffda] text-[14px] leading-[12px]">
-                  ➾
-                </span>{" "}
-                Mongo-DB
-              </div> */}
             </div>
             <div>
               <div className="w-[30vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem]">
@@ -448,62 +355,9 @@ const About = ({ aboutBtnClickedActive }) => {
           </div>
           <div className="text-[#8892b0] font-calibri text-[20px] leading-[1.3] antialiased mb-4">
           I have expertise in building IOS applications (swift), web applications (MERN), and mobile applications (React Native). I bring a diverse background, having worked collaboratively in teams professionally, participated in International Hackathon, worked independently as a freelancer.
-            {/* <br />
-            <br /> */}
-            {/* As a tech trainer at the
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://pk.worldorgs.com/catalog/faisalabad/accountant/saylani-mass-training-faisalabad"
-                target="_blank"
-              >
-                &nbsp;Saylani Welfare Mass Training & Job Creation
-                Program
-              </a>{" "}
-            </div> */}
-            {/* I've taught 1000+ students by simplifying complex programming concepts (wanna see how I provide training to my students?<div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/posts/ahmad-jajja_learn-to-code-with-activity-7151895134744256512-Dmyf?utm_source=share&utm_medium=member_desktop"
-                target="_blank"
-              >
-                &nbsp;click here&nbsp;
-              </a>{" "}
-            </div>
-            ). */}
-            {/* <br />
+          
             <br />
-            I helped over 100 international folks around the globe🌍 solve coding problems in Python as a
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7186385467846639620/"
-                target="_blank"
-              >
-                &nbsp;Section Leader&nbsp;
-              </a>{" "}
-            </div>
-            and
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/posts/ahmad-jajja_stanfordabrcodeabrinabrplaceabrlearnings-activity-7195142429073633281-zNhV/?utm_source=share&utm_medium=member_desktop"
-                target="_blank"
-              >
-                &nbsp;Section Leader Mentor&nbsp;
-              </a>{" "}
-            </div>
-            (𝘵𝘦𝘢𝘤𝘩𝘪𝘯𝘨 𝘰𝘯𝘦-𝘰𝘯-𝘰𝘯𝘦) at <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://codeinplace.stanford.edu/"
-                target="_blank"
-              >
-                &nbsp;Stanford's Code in Place&nbsp;
-              </a>{" "}
-            </div>.
             <br />
-            <br /> */}
             I have
             <div className="relative inline-block">
               <a
@@ -515,16 +369,6 @@ const About = ({ aboutBtnClickedActive }) => {
               </a>{" "}
             </div>
             one internation award from Havard University
-            {/* <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7176624410651504641/"
-                target="_blank"
-              >
-                &nbsp;won&nbsp;
-              </a>{" "}
-            </div>
-            one of them (CS50x Puzzle Day'24).*/}
             <br />
             <br /> 
             I'm undergraduated at
@@ -544,77 +388,7 @@ const About = ({ aboutBtnClickedActive }) => {
               Here are a few technologies I've been working with recently:
             </div>
           </div>
-          {/* <div className="text-[#8892b0] font-calibri text-[20px] leading-[1.3] antialiased mb-4">
-            I build things on the internet and love building large-scale
-            applications with system design in mind. I have had the opportunity
-            to work on various projects both in teams and as a freelancer, which
-            has provided me with valuable learning experiences. Additionally, I
-            have a passion for teaching Computer Science concepts. In fact, I
-            have been actively involved in teaching as a part of my role as a
-            <div className="relative inline-block">
-              <a className="spanOneHoverClass text-[#64ffda] font-calibri text-[20px] aboutScreen4:block">
-                &nbsp; Tech Trainer &nbsp;
-              </a>{" "}
-            </div>
-            within the
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://pk.worldorgs.com/catalog/faisalabad/accountant/saylani-mass-training-faisalabad"
-                target="_blank"
-              >
-                &nbsp;Saylani Welfare Mass Training & Job Creation
-                Program.&nbsp;
-              </a>{" "}
-            </div>
-            This teaching experience has allowed me to impart comprehensive
-            lessons on programming languages and technologies, including HTML,
-            CSS,Bootstrap5, JavaScript,Typescript, React JS,React Native,
-            NodeJS, MongoDB, and Express JS, to 500+ students. I thoroughly
-            enjoy sharing my knowledge and helping others grasp complex concepts
-            in a clear and concise manner as well as i loves to solve
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://github.com/Ahmadjajja/JAVA_DSA"
-                target="_blank"
-              >
-                &nbsp; DSA &nbsp;
-              </a>{" "}
-            </div>{" "}
-            Problem on
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="https://leetcode.com/ahmadjajja86/"
-                target="_blank"
-              >
-                &nbsp;leetcode&nbsp;
-              </a>{" "}
-            </div>{" "}
-            to improve my coding skills.I am an
-            <div className="relative inline-block">
-              <a className="spanOneHoverClass text-[#64ffda] font-calibri text-[20px] aboutScreen4:block">
-                &nbsp;open-source enthusiast &nbsp;
-              </a>{" "}
-            </div>{" "}
-            who is eager to explore new opportunities within the realm of
-            open-source development. My goal is to enhance my skills by working
-            on substantial codebases and contributing to the open-source
-            community. Currently, I am pursuing my undergraduate degree at the
-            <div className="relative inline-block">
-              <a
-                className="spanOneHoverClass text-[#64ffda] cursor-pointer font-calibri text-[20px] aboutScreen4:block"
-                href="http://web.uaf.edu.pk/"
-                target="_blank"
-              >
-                &nbsp;University of Agriculture, Faisalabad.
-              </a>{" "}
-            </div>
-            <div className="text-[#8892b0] font-calibri text-[20px] leading-[1.3] antialiased mb-4 mt-4">
-              Here are a few technologies I've been working with recently:
-            </div>
-          </div> */}
+        
           {/* Technologies I am familiar with */}
           <div className="text-[#8892b0] flex flex-wrap">
             <div>
@@ -688,18 +462,6 @@ const About = ({ aboutBtnClickedActive }) => {
               </div>
             </div>
             <div>
-              {/* <div className="w-[23vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem] aboutScreen9:w-[12.1rem]">
-                <span className="text-[#64ffda] text-[14px] leading-[12px]">
-                  ➾
-                </span>{" "}
-                Material-UI
-              </div> */}
-              {/* <div className="w-[23vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem] aboutScreen9:w-[12.1rem]">
-                <span className="text-[#64ffda] text-[14px] leading-[12px]">
-                  ➾
-                </span>{" "}
-                
-              </div> */}
             </div>
             <div>
               <div className="w-[23vw] inline-block font-customMono text-[13px] antialiased aboutScreen6:w-[10.5rem] aboutScreen9:w-[12.1rem]">
@@ -807,10 +569,10 @@ const About = ({ aboutBtnClickedActive }) => {
           <div className="h-auto py-12">
             <div className="relative">
               <img
-                ref={DP}
+                ref={myImage}
                 onMouseOver={() => setClicked(true)}
                 onMouseOut={() => setClicked(false)}
-                src={DP}
+                src={DPs}
                 alt="profile"
                 className="h-auto w-auto mr-auto ml-auto object-cover transition-ImageTransitionProperty duration-ImageTransitionDuration ease-ImageTransitionTiming delay-ImageTransitionDelay z-10 opacity-100 relative"
                 style={{

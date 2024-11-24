@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../Css_applied/navbarStyles.css";
 
 const Navbar = ({
@@ -181,33 +181,28 @@ const Navbar = ({
     setExperienceBtnSm(false);
     setWorkBtnSm(false);
     setContactBtnSm(false);
-    setBlogBtnSm(false);
   };
   const handleexperienceSmClciked = () => {
     setExperienceBtnSm(true);
     setAboutBtnSm(false);
     setWorkBtnSm(false);
     setContactBtnSm(false);
-    setBlogBtnSm(false);
   };
   const handleWorkSmClicked = () => {
     setWorkBtnSm(true);
     setAboutBtnSm(false);
     setExperienceBtnSm(false);
     setContactBtnSm(false);
-    setBlogBtnSm(false);
   };
   const handleContactSmClicked = () => {
     setContactBtnSm(true);
     setAboutBtnSm(false);
     setExperienceBtnSm(false);
     setWorkBtnSm(false);
-    setBlogBtnSm(false);
   };
 
   useEffect(() => {
     if (!isOffScreen) {
-      setBlogBtnSm(false);
       setAboutBtnSm(false);
       setExperienceBtnSm(false);
       setWorkBtnSm(false);
@@ -356,7 +351,7 @@ const Navbar = ({
                             fontSize="40px"
                             fontFamily="Consolas, serif"
                           >
-                            A
+                            M
                           </text>
                           <polygon
                             className="main"
@@ -464,23 +459,8 @@ const Navbar = ({
                     >
                       Contact
                     </button>
-                    <div className="five  mt-4  flex  justify-center  items-center  bg-[#172a45]  text-[#64ffda]  w-[100%]  text-base antialiased">
-                      05.
-                    </div>
-                    <Link
-                      to="/pensieve"
-                      onClick={() => {
-                        setOffScreen(false);
-                        setActive(false);
-                      }}
-                      className={`fiveDescription  flex  justify-center  items-center  w-[100%]  ${
-                        blogBtnSm ? "text-[#64ffda]" : "text-[#ccd6f6]"
-                      }  bg-[#172a45]  text-lg  py-2  tracking-wide antialiased`}
-                    >
-                      Blog
-                    </Link>
                     <a
-                      href="https://drive.google.com/file/d/1fgKw7H3PplIenkF-pxfqWdMAnvZcCeA0/view?usp=share_link"
+                      href="https://drive.google.com/file/d/1MHlneiVXzfuSLw3fFG5UTJuginZ4fDp5/view?usp=sharing"
                       className="py-[18px] px-[50px] flex  justify-center  items-center  mt-[4rem]  bg-[#172a45] border  border-[#64ffda]  rounded  font-mono  text-[#64ffda]  tracking-wide cursor-pointer antialiased"
                       target="_blank"
                     >
@@ -673,23 +653,8 @@ const Navbar = ({
                 >
                   Contact
                 </button>
-                <div className="five  mt-4  flex  justify-center  items-center  bg-[#172a45]  text-[#64ffda]  w-[100%]  text-base antialiased">
-                  05.
-                </div>
-                <Link
-                  to="/pensieve"
-                  onClick={() => {
-                    setOffScreen(false);
-                    setActive(false);
-                  }}
-                  className={`fiveDescription  flex  justify-center  items-center  w-[100%]  ${
-                    blogBtnSm ? "text-[#64ffda]" : "text-[#ccd6f6]"
-                  }  bg-[#172a45]  text-lg  py-2  tracking-wide antialiased`}
-                >
-                  Blog
-                </Link>
                 <a
-                  href="https://drive.google.com/file/d/1fgKw7H3PplIenkF-pxfqWdMAnvZcCeA0/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1MHlneiVXzfuSLw3fFG5UTJuginZ4fDp5/view?usp=sharing"
                   className="py-[18px] px-[50px] flex  justify-center  items-center  mt-[4rem]  bg-[#172a45] border  border-[#64ffda]  rounded  font-mono  text-[#64ffda]  tracking-wide cursor-pointer antialiased"
                   target="_blank"
                 >
@@ -853,23 +818,8 @@ const Navbar = ({
                     Contact
                   </span>
                 </span>
-                <Link
-                  to="/pensieve"
-                  className="text-[13px] p-[10px] no-underline transition-whereIWorkedTransitionProperty duration-whereIWorkedTransitionDuration ease-whereIWorkedTransitionTiming cursor-pointer mr-[10px] font-customMono myScreen5:px-[5px]"
-                >
-                  <span className="text-[#64ffda] mr-[3px]">05.</span>
-                  <span
-                    onMouseOver={() => setBlogMouseOver(true)}
-                    onMouseOut={() => setBlogMouseOver(false)}
-                    className={
-                      blogMouseHover ? "text-[#64ffda]" : "text-[#ccd6f6]"
-                    }
-                  >
-                    Blog
-                  </span>
-                </Link>
                 <a
-                  href="https://drive.google.com/file/d/1fgKw7H3PplIenkF-pxfqWdMAnvZcCeA0/view"
+                  href="https://drive.google.com/file/d/1MHlneiVXzfuSLw3fFG5UTJuginZ4fDp5/view?usp=sharing"
                   onClick={() => {
                     setResumeBtnClicked(true);
                   }}
