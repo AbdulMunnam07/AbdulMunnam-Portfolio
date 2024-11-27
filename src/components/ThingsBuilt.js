@@ -366,7 +366,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
           <img
             className="opacity-[0.15] w-[100%] h-[100%] row-start-1 col-start-1 items-start justify-start object-top object-contain"
             src={pdfimage}
-            alt="image"
+            alt="pdfimage"
           />
           <div className="grid grid-template-rows-4 grid-template-columns-2 gap-[10px] place-items-start text-[13px] text-[#64ffda] font-customMono bg-transparent antialiased row-start-1 col-start-1 pt-[40px] px-[40px] pb-[30px] tbScreen1:mt-[3%] tbScreen2:mt-[1%] tbScreen2:pt-[25px] tbScreen2:gap-[3px] tbScreen5:mt-[-2%] tbScreen5:px-[20px]">
             <div className="bg-transparent tbScreen5:text-[12px]">
