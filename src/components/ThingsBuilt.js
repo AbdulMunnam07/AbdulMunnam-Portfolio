@@ -358,7 +358,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </div>
           </div>
         </div>
-        {/* Podcast Thing */}
+        {/* pdf Thing */}
         <div
           id="podcastThing"
           className={`contentContainer grid grid-cols-1 object-top object-contain items-start py-4 mt-20 tbScreen9:mt-10 tbScreen10:mt-0`}
@@ -373,16 +373,13 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
               Featured Project
             </div>
             <div className="bg-transparent text-[24px] text-[#e6f1ff] font-calibri font-semibold text-right tbScreen1:mt-[-10px] tbScreen2:mt-[-4px] tbScreen5:text-[22px] tbScreen5:leading-[1] tbScreen5:mt-[2px]">
-              AI Podcast Generator
+              Pdf Converter
             </div>
             <div className="bg-transparent text-[18px] text-[#a8b2d1] font-calibri leading-[1.3] py-[10px] pr-[3%] text-left tbScreen1:py-[25px] tbScreen2:py-[10px] tbScreen4:py-[15px] tbScreen5:text-[16px] tbScreen5:py-[10px] tbScreen7:leading-[1.1] tbScreen8:leading-[1]">
-              This project transforms written content into captivating, lifelike
-              podcasts effortlessly using ElevenLabs API-powered speech
-              synthesis.
+            This app allows users to convert files from various formats—such as Word, Excel, PowerPoint, images (JPEG, PNG), and more—into PDFs with just a few taps.
             </div>
             <div className="bg-transparent text-[13px] text-[#ccd6f6] font-customMono tbScreen5:text-[11px] tbScreen5:mt-[6px]">
-              HTML5 CSS3 Bootstrap5 React-JS Context-API Generative AI,
-              Langchain, Python
+              Swift, Ai Model, Storekit, Pdfkit
             </div>
           </div>
           <div className="relative">
@@ -391,7 +388,6 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
                 <a
                   target="_blank"
                   className="tbScreen1:mt-[30px] tbScreen3:mt-[15px] tbScreen4:mt-[20px] tbScreen5:mt-[10px] inline-block text-[#ccd6f6] w-[20px] h-[20px] cursor-pointer antialiased"
-                  // href="https://github.com/Ahmadjajja/AIpodcastgenerator"
                   aria-label="GitHub Link"
                 >
                   <svg
@@ -444,7 +440,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
               <a
                 target="_blank"
                 className="inline-block text-[#ccd6f6] w-[20px] h-[20px] cursor-pointer mt-[20px] antialiased  tbScreen1:mt-[30px] tbScreen3:mt-[15px] tbScreen4:mt-[20px] tbScreen5:mt-[10px] tbScreen11:mt-[10px]"
-                href="https://github.com/Ahmadjajja/JAVA_DSA"
+                href="https://github.com/AbdulMunnam07/Python_DSA"
                 aria-label="GitHub Link"
               >
                 <svg
@@ -519,7 +515,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </a>
           </div>
         </div>
-        {/* Plant Thing */}
+        {/* Notes Thing */}
         <div
           ref={refPlantThing}
           className={`contentContainer ${plantThingVisible ? "show" : ""
@@ -609,7 +605,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </a>
           </div>
         </div>
-        {/* Podcast Thing */}
+        {/* PDF Thing */}
         <div
           ref={refPodcastThing}
           className={`contentContainer ${podcastThingVisible ? "show" : ""
@@ -630,14 +626,34 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
                 Swift, Ai Model, Storekit, Pdfkit
               </li>
             </ul>
+            <div className="tbScreen27:pr-[41px]">
+            </div>
           </div>
           <div
             className={
-              podcastThingMouseOver
+              ecoFactorThingMouseOver
                 ? "project-image-hover2"
                 : "project-image2 mix-blend-exclusion"
             }
           >
+            <a
+              href="https://www.codeway.pk/"
+              target="_blank"
+            >
+              <div>
+                <img
+                  onMouseOver={() => setEcoFactorThingMOuseOver(true)}
+                  onMouseOut={() => setEcoFactorThingMOuseOver(false)}
+                  className="object-top object-contain"
+                  src={
+                    ecoFactorThingGithubHover
+                      ? pdfimage
+                      : pdfimage
+                  }
+                  alt="image"
+                />
+              </div>
+            </a>
           </div>
         </div>
         {/* First Thing */}
