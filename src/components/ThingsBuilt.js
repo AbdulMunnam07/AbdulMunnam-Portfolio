@@ -4,13 +4,18 @@ import pdfimage from "../images/pdfimage.jpeg";
 import codeway from "../images/codeway.jpeg";
 import PYTHONDSA from "../images/PYTHONDSA.jpeg";
 import NotesApp from "../images/NotesApp.jpeg";
+import zoomApp from "../images/zoomApp.jpeg"
+
+
 const ThingsBuilt = ({ workBtnClickedActive }) => {
   const [ecoFactorThingMouseOver, setEcoFactorThingMOuseOver] = useState(false);
+  const [zoomThingMouseOver, setZoomThingMouseOver] = useState(false);
   const [plantThingMouseOver, setPlantThingMOuseOver] = useState(false);
   const [podcastThingMouseOver, setPodcastThingMOuseOver] = useState(false);
   const [firstThingsMouseOver, setFirstThingMOuseOver] = useState(false);
   // Hover On Icons
   const [ecoFactorThingGithubHover, setEcoFactorThingGithubHover] = useState(false);
+  const [zoomThingGithubHover, setZoomThingGithubHover] = useState(false);
   const [ecoFactorThingLinkHover, setEcoFactorThingLinkHover] = useState(false);
   const [firstThingGithubHover, setFirstThingGithubHover] = useState(false);
   const [plantThingGithubHover, setPlantThingGithubHover] = useState(false);
@@ -104,6 +109,10 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
   const [podcastThingVisible, setPodcastThingVisible] = useState(false);
   const refPodcastThing = useRef(null);
 
+  const [zoomThingVisible, setZoomThingVisible] = useState(false);
+  const [isVisibleZoom, setIsVisibleZoom] = useState(false);
+  const refZoomThing = useRef(null);
+
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -190,9 +199,16 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
       element.classList.add("show");
     }
   });
-  // First Thing
+  // DSA Thing
   window.addEventListener("scroll", function () {
     let element = document.getElementById("firstThing");
+    if (element && isElementInViewportWithOffset(element)) {
+      element.classList.add("show");
+    }
+  });
+  // Zoom Thing
+  window.addEventListener("scroll", function () {
+    let element = document.getElementById("zoomThing");
     if (element && isElementInViewportWithOffset(element)) {
       element.classList.add("show");
     }
@@ -271,7 +287,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
               codeway
             </div>
             <div className="bg-transparent text-[18px] text-[#a8b2d1] font-calibri leading-[1.3] py-[10px] pr-[3%] text-left tbScreen1:py-[25px] tbScreen2:py-[10px] tbScreen4:py-[15px] tbScreen5:text-[16px] tbScreen5:py-[10px] tbScreen7:leading-[1.1] tbScreen8:leading-[1]">
-            Ai Tattoo Generator: In this project, I have implement flux ai model for tattoo generation, AWS service for fetching relative category tattoo and in-apps purchase for payment integration.
+              Ai Tattoo Generator: In this project, I have implement flux ai model for tattoo generation, AWS service for fetching relative category tattoo and in-apps purchase for payment integration.
             </div>
             <div className="bg-transparent text-[13px] text-[#ccd6f6] font-customMono tbScreen5:text-[11px] tbScreen5:mt-[6px]">
               Swift, SwiftyStorekit, Generative AI(Flux Model, Weaviate AWS Services)
@@ -324,13 +340,13 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
               Featured Project
             </div>
             <div className="bg-transparent text-[24px] text-[#e6f1ff] font-calibri font-semibold text-right tbScreen1:mt-[-10px] tbScreen3:mt-[-4px] tbScreen5:pl-[40%] tbScreen5:text-[22px] tbScreen6:pl-[10%] tbScreen5:leading-[1] tbScreen5:mt-[7px]">
-              Collaborative Notes App 
+              Collaborative Notes App
             </div>
             <div className="bg-transparent text-[18px] text-[#a8b2d1] font-calibri leading-[1.3] py-[20px] pl-[3%] text-right tbScreen1:py-[25px] tbScreen3:py-[10px] tbScreen4:py-[15px] tbScreen5:text-[16px] tbScreen5:py-[10px] tbScreen5:leading-[1.1]">
               NotesApp:  it allows users to create, edit, and delete notes effortlessly. Each note can be customized, sorted, and tagged for easy access, making it an ideal solution for managing personal ideas, to-do lists, and daily reminders.
             </div>
             <div className="bg-transparent text-[13px] text-[#ccd6f6] font-customMono tbScreen5:text-[11px] tbScreen5:mt-[6px]">
-              ReactJS, Firebase authentication, FireStore, Redux, Tailwind, HTML, CSS, SAAS 
+              ReactJS, Firebase authentication, FireStore, Redux, Tailwind, HTML, CSS, SAAS
             </div>
           </div>
           <div className="relative bg-transparent">
@@ -376,7 +392,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
               Pdf Converter
             </div>
             <div className="bg-transparent text-[18px] text-[#a8b2d1] font-calibri leading-[1.3] py-[10px] pr-[3%] text-left tbScreen1:py-[25px] tbScreen2:py-[10px] tbScreen4:py-[15px] tbScreen5:text-[16px] tbScreen5:py-[10px] tbScreen7:leading-[1.1] tbScreen8:leading-[1]">
-            This app allows users to convert files from various formats—such as Word, Excel, PowerPoint, images (JPEG, PNG), and more—into PDFs with just a few taps.
+              This app allows users to convert files from various formats—such as Word, Excel, PowerPoint, images (JPEG, PNG), and more—into PDFs with just a few taps.
             </div>
             <div className="bg-transparent text-[13px] text-[#ccd6f6] font-customMono tbScreen5:text-[11px] tbScreen5:mt-[6px]">
               Swift, Ai Model, Storekit, Pdfkit
@@ -409,7 +425,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
           </div>
         </div>
 
-        {/* First Thing */}
+        {/* DSA Thing */}
         <div
           id="firstThing"
           className={`contentContainer grid grid-cols-1 object-top object-contain items-start py-4`}
@@ -457,6 +473,57 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                 </svg>
               </a>
+            </div>
+          </div>
+
+          {/* pdf Thing */}
+          <div
+            id="zoomThing"
+            className={`contentContainer grid grid-cols-1 object-top object-contain items-start py-4 mt-20 tbScreen9:mt-10 tbScreen10:mt-0`}
+          >
+            <img
+              className="opacity-[0.15] w-[100%] h-[100%] row-start-1 col-start-1 items-start justify-start object-top object-contain"
+              src={zoomApp}
+              alt="zoomApp"
+            />
+            <div className="grid grid-template-rows-4 grid-template-columns-2 gap-[10px] place-items-start text-[13px] text-[#64ffda] font-customMono bg-transparent antialiased row-start-1 col-start-1 pt-[40px] px-[40px] pb-[30px] tbScreen1:mt-[3%] tbScreen2:mt-[1%] tbScreen2:pt-[25px] tbScreen2:gap-[3px] tbScreen5:mt-[-2%] tbScreen5:px-[20px]">
+              <div className="bg-transparent tbScreen5:text-[12px]">
+                Featured Project
+              </div>
+              <div className="bg-transparent text-[24px] text-[#e6f1ff] font-calibri font-semibold text-right tbScreen1:mt-[-10px] tbScreen2:mt-[-4px] tbScreen5:text-[22px] tbScreen5:leading-[1] tbScreen5:mt-[2px]">
+                EasyJoin for Zoom
+              </div>
+              <div className="bg-transparent text-[18px] text-[#a8b2d1] font-calibri leading-[1.3] py-[10px] pr-[3%] text-left tbScreen1:py-[25px] tbScreen2:py-[10px] tbScreen4:py-[15px] tbScreen5:text-[16px] tbScreen5:py-[10px] tbScreen7:leading-[1.1] tbScreen8:leading-[1]">
+              This app allow user to create zoom meetings in just few steps. Current date meeting will show in a form of lists when user will open app. This app also allow user to make todo list as a reminder.
+              </div>
+              <div className="bg-transparent text-[13px] text-[#ccd6f6] font-customMono tbScreen5:text-[11px] tbScreen5:mt-[6px]">
+                Swift, Swift UI, Storekit
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute bottom-[90px] left-[10%] tbScreen52:bottom-[30px] tbScreen53:bottom-[16px] tbScreen54:bottom-0 tbScreen55:bottom-[-10px] tbScreen57:bottom-[-20px] tbScreen57:left-[9.5%] tbScreen56:left-[9.5%] tbScreen59:bottom-[-9px] tbScreen60:left-[12%] tbScreen61:left-[6%] tbScreen62:left-[8%] tbScreen63:left-[10%] tbScreen64:left-[12%]">
+                <div className="flex w-[50px] justify-between tbScreen8:w-[50px] bg-[#2f3b4e] tbScreen58:bg-transparent">
+                  <a
+                    target="_blank"
+                    className="tbScreen1:mt-[30px] tbScreen3:mt-[15px] tbScreen4:mt-[20px] tbScreen5:mt-[10px] inline-block text-[#ccd6f6] w-[20px] h-[20px] cursor-pointer antialiased"
+                    aria-label="GitHub Link"
+                  >
+                    <svg
+                      className="svgGithubIcon bg-[#2f3b4e] tbScreen58:bg-transparent feather feather-github"
+                      xmlns="http://www.w3.org/2000/svg"
+                      role="img"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -618,7 +685,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </h3>
             <div className="description2 text-[18px] bg-[#172a45] shadow-none text-[#a8b2d1] font-calibri leading-[1.3] py-[10px] text-left relative z-20 rounded mb-[3%] mt-[7%] tbScreen40:px-[20px] tbScreen40:py-[20px]">
               <p className="text-[#a8b2d1] bg-[#172a45]">
-              This app allows users to convert files from various formats—such as Word, Excel, PowerPoint, images (JPEG, PNG), and more—into PDFs with just a few taps.
+                This app allows users to convert files from various formats—such as Word, Excel, PowerPoint, images (JPEG, PNG), and more—into PDFs with just a few taps.
               </p>
             </div>
             <ul className="bg-transparent text-[13px] text-[#a8b2d1] font-customMono text-left pr-[90px] leading-[1.1] mb-[20px] tbScreen41:pr-[110px] tbScreen42:pr-[128px] tbScreen43:pr-[77px]">
@@ -656,7 +723,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </a>
           </div>
         </div>
-        {/* First Thing */}
+        {/* DSA Thing */}
         <div
           ref={refFirstThing}
           className={`contentContainer ${firstThingVisible ? "show" : ""
@@ -725,6 +792,57 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
                   onMouseOver={() => setFirstThingMOuseOver(true)}
                   onMouseOut={() => setFirstThingMOuseOver(false)}
                   src={firstThingsMouseOver ? PYTHONDSA : PYTHONDSA}
+                  alt="image"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+        {/* Zoom joiner app */}
+        <div
+          ref={refZoomThing}
+          className={`contentContainer ${zoomThingVisible ? "show" : ""
+            } featured__StyledProject2 ml-[5%] mr-[5%]`}
+        >
+          <div className="project-content2 text-left text-[13px] text-[#64ffda] font-customMono bg-transparent antialiased">
+            <p>Featured Project</p>
+            <h3 className="bg-transparent text-[24px] text-[#e6f1ff] font-calibri font-semibold text-left relative z-0 md:opacity-[1]">
+              EasyJoin for Zoom
+            </h3>
+            <div className="description2 text-[18px] bg-[#172a45] shadow-none text-[#a8b2d1] font-calibri leading-[1.3] py-[10px] text-left relative z-20 rounded mb-[3%] mt-[7%] tbScreen40:px-[20px] tbScreen40:py-[20px]">
+              <p className="text-[#a8b2d1] bg-[#172a45]">
+                This app allow user to create zoom meetings in just few steps. Current date meeting will show in a form of lists when user will open app. This app also allow user to make todo list as a reminder.
+              </p>
+            </div>
+            <ul className="bg-transparent text-[13px] text-[#a8b2d1] font-customMono text-left pr-[90px] leading-[1.1] mb-[20px] tbScreen41:pr-[110px] tbScreen42:pr-[128px] tbScreen43:pr-[77px]">
+              <li>
+                Swift, Swift UI, Storekit.
+              </li>
+            </ul>
+            <div className="tbScreen27:pr-[41px]">
+            </div>
+          </div>
+          <div
+            className={
+              zoomThingMouseOver
+                ? "project-image-hover2"
+                : "project-image2 mix-blend-exclusion"
+            }
+          >
+            <a
+              href="https://www.codeway.pk/"
+              target="_blank"
+            >
+              <div>
+                <img
+                  onMouseOver={() => setZoomThingMouseOver(true)}
+                  onMouseOut={() => setZoomThingMouseOver(false)}
+                  className="object-top object-contain"
+                  src={
+                    zoomThingGithubHover
+                      ? zoomApp
+                      : zoomApp
+                  }
                   alt="image"
                 />
               </div>
