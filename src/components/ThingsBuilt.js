@@ -136,6 +136,29 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
     }
   });
 
+  useEffect(() => {
+    if (isVisibleZoom) {
+      setTimeout(() => {
+        setZoomThingVisible(true);
+      }, 200);
+    }
+  });
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsVisibleZoom(true);
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+    observer.observe(refZoomThing.current);
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   // First Thing Appear when Displayed
   const [isVisibleTwo, setIsVisibleTwo] = useState(false);
   const [firstThingVisible, setFirstThingVisible] = useState(false);
@@ -476,7 +499,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </div>
           </div>
 
-          {/* pdf Thing */}
+          {/* Zoom Thing */}
           <div
             id="zoomThing"
             className={`contentContainer grid grid-cols-1 object-top object-contain items-start py-4 mt-20 tbScreen9:mt-10 tbScreen10:mt-0`}
@@ -531,7 +554,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
 
       {/* Things when the Screen >= 768 */}
       <div className={" hidden md:block"}>
-        {/* EcoFactor Thing */}
+        {/* AI Tattoo Thing */}
         <div
           ref={refEcoFactorThing}
           className={`contentContainer ${ecoFactorThingVisible ? "show" : ""
@@ -582,6 +605,7 @@ const ThingsBuilt = ({ workBtnClickedActive }) => {
             </a>
           </div>
         </div>
+
         {/* Notes Thing */}
         <div
           ref={refPlantThing}
